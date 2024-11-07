@@ -1,6 +1,6 @@
 ## Biserica-ortodoxa-Verejeni-Ocnita
 sait la tema biserica
-1. Tradiții și Sărbători Religioase https://alionarotaru.github.io/Biserica-ortod
+1. Tradiții și Sărbători Religioase https://github.com/alionarotaru/Biserica-ortodoxa-Verejeni-Ocnita/blob/main/image.png?raw=true
 
 Biserica Ortodoxă din Verejeni este un loc unde tradițiile religioase sunt păstrate cu sfințenie. Fiecare sărbătoare ortodoxă este marcată de slujbe speciale, iar credincioșii se adună în număr mare pentru a celebra zilele sfinte, cum ar fi Paștele, Crăciunul și alte sărbători importante ale calendarului religios ortodox.
 2. Rugăciuni și Învățături Religioase
