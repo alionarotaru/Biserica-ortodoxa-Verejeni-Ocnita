@@ -4,21 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biserica Ortodoxă din Verejeni</title>
-    <link rel="stylesheet" href="style.css"> <!-- Link pentru stiluri -->
+    <style>
+        body {
+            font-size: 18px;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .header {
+            text-align: center;
+            color: #2c3e50;
+            font-size: 24px;
+            font-weight: bold;
+        }
+ /* Stil pentru secțiunea de Informații Importante */
+        .important-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 30px;
+        }
+
+        .info-card {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .info-card:hover {
+            transform: scale(1.05);
+        }
+.info-card h3 {
+            font-size: 20px;
+            color: #2c3e50;
+        }
+
+        .info-card p {
+            font-size: 16px;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .content {
+            padding: 20px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            background-color: #fff;
+            margin: 20px auto;
+            width: 80%;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Bine ați venit la Biserica Ortodoxă din Verejeni!</h1>
-    </header>
+    <div class="header">
+        Biserica Ortodoxă din Verejeni
+    </div>
 
-    <section>
-        <h2>Despre biserica noastră</h2>
-        <p>Biserica Ortodoxă din Verejeni este un loc de închinare cu o istorie îndelungată și o comunitate unită în credință.</p>
-        
-        <h3>Informații importante</h3>
-        <table>
-            <tr>
-                <th>Eveniment</th>
-                <th>Data</th>
-                <th>Locație</th>
-            </tr>
+    <div class="content">
+        <p>Despre biserica noastră:</p>
+        <p>Biserica Ortodoxă din Verejeni este un loc de cult cu o istorie lungă și o comunitate activă în credință. Aici sunt organizate rugăciuni, evenimente religioase și activități care implică întreaga comunitate.</p>
+    </div>
+
+    <!-- Informații importante -->
+    <div class="important-info">
+        <div class="info-card">
+            <h3>Eveniment 1</h3>
+            <p>Detalii despre evenimentul 1 al bisericii, data și locația. Acesta va include rugăciuni speciale și slujbe religioase importante.</p>
+        </div>
+        <div class="info-card">
+            <h3>Eveniment 2</h3>
+            <p>Descrierea unui alt eveniment important care va avea loc la biserică, ce implica comunitatea și credința noastră ortodoxă.</p>
+        </div>
+        <div class="info-card">
+            <h3>Locația bisericii</h3>
+            <p>Biserica Ortodoxă din Verejeni se află într-o zonă liniștită, unde credincioșii pot veni pentru a se ruga și a învăța în fiecare zi.</p>
+        </div>
+        <div class="info-card">
+            <h3>Activități comunitare</h3>
+            <p>La biserică se organizează activități comunitare pentru toate vârstele, inclusiv cursuri de religie și grupuri de tineret.</p>
+        </div>
+    </div>
+</body>
+</html>
