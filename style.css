@@ -1,67 +1,31 @@
-/* Fundalul paginii /
 body {
-    background-image: url('https://alionarotaru.github.io/Biserica-ortodoxa-Verejeni-Ocnita/0-02-05-0562749ec86c59b6ff5d5d71e7844474dcc78131f60c5e745228073b72d7d2a3_385b1850f955520c.jpg');
-    background-size: cover; / Imaginea se va ajusta pentru a acoperi întreaga fereastră /
-     background-position: center;
-    font-family: 'Arial', sans-serif;
-    color: white; / Textul va fi alb pentru a se vedea mai bine pe fundal */
-    margin: 0;
-    padding: 0;
+    background-image: url('https://github.com/alionarotaru/Biserica-ortodoxa-Verejeni-Ocnita/blob/main/0-02-05-0562749ec86c59b6ff5d5d71e7844474dcc78131f60c5e745228073b72d7d2a3_385b1850f955520c.jpg?raw=true');
+    background-size: cover; /* Imaginea va acoperi întregul fundal /
+    background-position: center; / Centrează imaginea /
+    color: white; / Textul va fi alb pentru a fi vizibil pe fundal */
+    font-family: Arial, sans-serif;
 }
 
-/* Stilizarea antetului */
 header {
     text-align: center;
-    padding: 50px 20px;
+    padding: 20px;
 }
 
-header h1 {
+h1 {
     font-size: 3em;
-    color: #FFD700; /* Aurie pentru titlu /
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7); / Umbra textului */
+}
+.content {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundal semi-transparent pentru text */
+    border-radius: 10px;
 }
 
-header img {
-    max-width: 100%;
-    border-radius: 10px; /* Colțuri rotunjite pentru imagine /
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); / Umbra imaginii */
-}
-/* Stilizarea secțiunii de informații /
-section {
-    background-color: rgba(0, 0, 0, 0.6); / Fundal semi-transparent pentru text */
-    padding: 30px;
-    border-radius: 15px;
-    margin: 20px auto;
-    width: 80%;
-    max-width: 800px;
-}
-
-section h2, section h3 {
-    color: #FF6347; /* Roșu corai pentru subtitluri */
-    text-align: center;
-}
-
-section p, section ul {
-    font-size: 1.2em;
-    line-height: 1.6;
-    margin-top: 20px;
-}
-section ul {
-    list-style-type: square; /* Puncte pătrate pentru lista de informații */
-    margin-left: 40px;
-}
-
-section li {
+h2 {
+    font-size: 2em;
     margin-bottom: 10px;
 }
 
-/* Stilizarea footer-ului /
-footer {
-    background-color: rgba(0, 0, 0, 0.8); / Fundal închis pentru footer */
-    color: white;
-    text-align: center;
-    padding: 15px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+p {
+    font-size: 1.2em;
 }
